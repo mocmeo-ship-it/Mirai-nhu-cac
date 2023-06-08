@@ -1,22 +1,22 @@
 module.exports.config = {
-	name: "checkcoins",
+	name: "money",
 	version: "1.0.2",
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Kiểm tra số tiền của bản thân hoặc người được tag",
-	commandCategory: "Coins",
+	commandCategory: "economy",
 	usages: "[Tag]",
 	cooldowns: 5
 };
 
 module.exports.languages = {
 	"vi": {
-		"sotienbanthan": "⚡️Số tiền bạn đang có: %1$",
-		"sotiennguoikhac": "⚡️Số tiền của %1 hiện đang có là: %2$"
+		"sotienbanthan": "💳 Số tiền trong thẻ của bạn: %1$ 💳",
+		"sotiennguoikhac": "💵 Số tiền của %1 hiện đang có là: %2$ 💵"
 	},
 	"en": {
-		"sotienbanthan": "Your current balance: %1$",
-		"sotiennguoikhac": "%1's current balance: %2$."
+		"sotienbanthan": "💳 Your current balance: %1$ 💳",
+		"sotiennguoikhac": "💳 %1's current balance: %2$ 💳"
 	}
 }
 
